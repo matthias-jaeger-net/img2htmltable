@@ -6,4 +6,5 @@ Transform an rgb image to a inline colored static HTML ```<table>```
 
 - [x] Empty processing sketch
 - [x] Choose example image
-- [ ] Structure processing sketch
+- [x] Display example image on screen
+- [ ] Implement a document writer to generate a HTML text file
