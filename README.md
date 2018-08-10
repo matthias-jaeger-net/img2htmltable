@@ -12,7 +12,6 @@ Currenty in development: Transform an rgb image to a inline colored static HTML 
 
 ## To do
 - [ ] Research about default padding and margin of a table
-- [ ] Research about default padding and margin of a table
 - [ ] Research about line height 1px
 - [ ] Test with float:left div elements instead?
 
