@@ -16,4 +16,3 @@ Currenty in development: Transform an rgb image to a inline colored static HTML 
 - [ ] Research about line height 1px
 
 ## Screenshots
-![img2htmltable](screenshots/paddingproblem.png)
