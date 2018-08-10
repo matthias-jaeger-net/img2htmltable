@@ -9,19 +9,30 @@
   * {
     box-sizing: border-box;
   }
-  .table {
+  table, tr, td,  tbody {
     margin: 0;
     padding: 0;
+    border: none;
+    outline: none;
+    line-height: 1px;
+    overflow: hidden;
+  }
+  table {
+    table-layout:fixed;
     width: 200px;
     height: 200px;
-
-    line-height: 1px;
   }
-  div {
+  tbody {
+    width: 200px;
+    height: 200px;
+  }
+  table tr {
+    width: 200px;
+    height: 1px;
+  }
+  table td {
     width: 1px;
     height: 1px;
-    overflow: hidden;
-    float: left;
   }
   </style>
 </head>

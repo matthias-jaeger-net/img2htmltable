@@ -12,24 +12,22 @@ void setup() {
     output.println(line);
   }
 
-  output.println("<div class='table'>");
+  output.println("<table>");
 
   // Read image and write HTML
   loadPixels(); 
-  
   for (int y = 0; y < height; y++) {
 
-    //output.println("<tr>");
+    output.println("<tr>");
 
     for (int x = 0; x < width; x++) {
       int loc = x + y * height;
       float r = red(pixels[loc]);
       float g = green(pixels[loc]);
       float b = blue(pixels[loc]);
-      output.println("<div style='background-color: rgb(" + r + ", " + g + ", " + b + ");'>&nbsp;</div>");
+      output.println("<td style='background-color: rgb(" + r + ", " + g + ", " + b + ");'>&nbsp;</td>");
     }
-    
-    //output.println("</tr>");
+    output.println("</tr>");
   }
   updatePixels();
 
@@ -39,5 +37,5 @@ void setup() {
   output.close(); 
 
   // Stops the program
-  //exit();
+  exit();
 }  
