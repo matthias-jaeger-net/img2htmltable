@@ -9,8 +9,8 @@ Transform an rgb image to a inline colored static HTML ```<table>```
 - [x] Display example image on screen
 - [x] Implement a document writer to generate a HTML text file
 - [x] Read the image with processing
-- [x] Write the <table> to the html file
-- [ ] Test with float:left <div> elements instead?
+- [x] Write the table to the html file
+- [ ] Test with float:left div elements instead?
 
 ## First bugs appear
 - [ ] Research about default padding and margin of a table
